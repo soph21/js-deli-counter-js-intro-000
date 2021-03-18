@@ -1,4 +1,3 @@
 function takeANumber(katzDeli, name) {
-  katzDeli.push (`Welcome, ${name}. You are number 1 in line.`)
-return katzDeli[0]
+  return `Welcome, ${name}. You are number katzDeli.indexOf(name) in line.`
 }
