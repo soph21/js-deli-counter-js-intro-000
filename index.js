@@ -9,6 +9,6 @@ function nowServing (deliLine) {
   }  else {
     let a = deliLine[0]
     deliLine.shift
-    return `Currently service ${a}.`
+    return `Currently serving ${a}.`
   }
 }
