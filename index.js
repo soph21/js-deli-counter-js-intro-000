@@ -12,3 +12,11 @@ function nowServing (deliLine) {
     return `Currently serving ${a}.`
   }
 }
+function currentLine (newLine) {
+  if (newLine.length ===0) {
+    return "The line currently empty."
+  } else {
+    return `The line is currently: 1. ${newLine[0]}, 2. ${newLine[1]}, 3. ${newLine[2]}`
+  }
+
+}
