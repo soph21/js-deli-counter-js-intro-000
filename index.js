@@ -6,5 +6,9 @@ katzDeli.push (name)
 function nowServing (deliLine) {
   if (deliLine.length === 0) {
     return "There is nobody waiting to be served!"
-  }
+  }  else {
+    a = deliLine[0]
+deliLine.shift
+    return `Currently service ${a}.`
+  } 
 }
