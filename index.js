@@ -5,7 +5,7 @@ katzDeli.push (name)
 
 function nowServing (deliLine) {
 deliLine = []
-  if deliLine.length === 0 {
+  if deliLine = 0 {
     return "There is nobody waiting to be served"
   }
 }
