@@ -8,7 +8,7 @@ function nowServing (deliLine) {
     return "There is nobody waiting to be served!"
   }  else {
     let a = deliLine[0]
-deliLine.shift
+    deliLine.shift
     return `Currently service ${a}.`
   }
 }
